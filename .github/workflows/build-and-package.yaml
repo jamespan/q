@@ -1,6 +1,7 @@
 name: BuildAndPackage
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
